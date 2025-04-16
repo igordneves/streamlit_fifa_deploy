@@ -12,7 +12,7 @@ if "data" not in st.session_state:
     df_data = df_data.sort_values(by="Overall",ascending=False)
     st.session_state["data"] = df_data
 
-st.markdown("# FIFA 2023 OFICIAL - IDN")
+st.markdown("# FIFA 2023 OFICIAL - IDN-2025")
 st.sidebar.markdown("Desenvolvido por Igor Daniel")
 
 btn = st.link_button(
