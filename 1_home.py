@@ -15,9 +15,9 @@ if "data" not in st.session_state:
 st.markdown("# FIFA 2023 OFICIAL")
 st.sidebar.markdown("Desenvolvido por Igor Daniel")
 
-btn = st.link_button(
-    "Acesso os dados do Kaglle",
-    "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+#btn = st.link_button(
+ #   "Acesso os dados do Kaglle",
+  #  "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
 
 st.markdown("The Football Player Dataset from 2017 to 2023 provides comprehensive information about professional football players." \
             "The dataset contains a wide range of attributes, including player demographics, physical characteristics, playing statistics, contract details, and club affiliations. " \
